@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Bucket List</title>
+  <style>
+    /* Base styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #4CAF50;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #777;
+    }
+
+    /* List Styling */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      background-color: #e7f5e9;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    ul li.completed {
+      background-color: #d4edda;
+      text-decoration: line-through;
+    }
+
+    ul li .icon {
+      font-size: 1.5rem;
+      color: #4CAF50;
+    }
+
+    ul li.completed .icon {
+      color: #8bc34a;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      ul li {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Personal Bucket List</h1>
+      <p>Dream big, achieve bigger!</p>
+    </header>
+    <ul>
+      <li class="completed">
+        <span class="icon">✔️</span> Travel to Paris
+      </li>
+      <li>
+        <span class="icon">⭐</span> Learn to play the guitar
+      </li>
+      <li>
+        <span class="icon">⭐</span> Go skydiving
+      </li>
+      <li class="completed">
+        <span class="icon">✔️</span> Start a blog
+      </li>
+      <li>
+        <span class="icon">⭐</span> Run a marathon
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

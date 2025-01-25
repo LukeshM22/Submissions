@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slider-container">
+    <!-- Main Slider -->
+    <div class="slider">
+      <div class="slide active">
+        <img src="top-machu-picchu2-s.webp" alt="Machu Picchu">
+        <div class="caption">Lord's in snow</div>
+      </div>
+      <div class="slide">
+        <img src="images.jpeg" alt="Taj Mahal">
+        <div class="caption">Adelaide Oval</div>
+      </div>
+      <div class="slide">
+        <img src="download.jpeg" height = 900 alt="Eiffel Tower">
+        <div class="caption">Leaning tower of pisa</div>
+      </div>
+    </div>
+    <!-- Navigation Controls -->
+    <div class="navigation">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <!-- Thumbnail Navigation -->
+    <div class="thumbnails">
+      <img src="oval_1670862997883_1670863012041_1670863012041.webp" alt="Machu Picchu" class="thumbnail active">
+      <img src="images.jpeg" alt="Taj Mahal" class="thumbnail">
+      <img src="download.jpeg" alt="Eiffel Tower" class="thumbnail">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
